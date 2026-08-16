@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "yellowcarpet",
+  "version": "1.0.0",
+  "name": "Yellow Carpet",
+  "description": "Custom dispenser and log-detecting observer for Pojav modpacks.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/yellowcarpet/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.yellowcarpet.YellowCarpetMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
